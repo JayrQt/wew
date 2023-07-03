@@ -1,0 +1,111 @@
+
+body{
+   background-image: url(zen.jpg.webp);
+   background-repeat: no-repeat;
+   margin: 0;
+   background-size: cover;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    padding: 20px;
+    text-align: right;
+    text-transform: uppercase;
+    word-spacing: 30px;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+a.color:hover{
+    padding: 20px;
+    transition: 0.5s;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    
+}
+
+#form{
+    width: 450px;
+    height: 450px;
+    border: 2px solid black;
+    margin-top: 10%;
+    margin-left: 43%;
+    border-radius: 5px;
+}
+
+.name{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.name input{
+    height: 20px;
+    width: 55%;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid black;
+    
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+
+    
+}
+
+.name label{
+    font-size: 20px;
+    padding-right: 0px;
+    font-weight: 500;
+    
+}
+
+.box{
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#forget{
+    text-decoration: underline;
+    background-color: none;
+    color: blue;
+}
+
+p{
+    text-align: center;
+}
+
+
+button{
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px 20px;
+    background-color: rgb(236, 231, 150);
+    border-radius: 10PX;
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: rgb(60, 110, 94);
+}
+
+span{
+    position: absolute;
+    margin-left: 230px;
+    margin-bottom: 10px;
+}
+
+
+
+
